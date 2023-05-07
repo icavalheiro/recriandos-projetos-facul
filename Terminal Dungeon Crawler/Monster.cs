@@ -8,4 +8,11 @@ public class Monster
     public string Profession { get; set; } = "Undefined";
     public string Race { get; set; } = "Undefined";
     public bool PlayerAware { get; set; } = false;
+
+    public override string ToString()
+    {
+        var isAware = PlayerAware ? "Yes" : "No";
+
+        return $"Monster: {Race} {Profession}\nAttack: {Attack}\nArmor: {Armor}\nLife: {Life}\nIs Aware of you: {isAware}\n";
+    }
 }

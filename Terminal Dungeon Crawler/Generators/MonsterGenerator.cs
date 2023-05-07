@@ -43,10 +43,7 @@ public static class MonsterGenerator
         const int baseArmor = 0;
         const int armorPerLevel = 1;
 
-        var armor = baseArmor + (int)((armorPerLevel * difficultyLevel) * ((Random.NextDouble() * 0.6f) + 1.1f));
-
-        if (armor > 15)
-            return 15;
+        var armor = baseArmor + (int)((armorPerLevel * difficultyLevel) * ((Random.NextDouble() * 2f)));
 
         return armor;
     }
