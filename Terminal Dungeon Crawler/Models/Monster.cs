@@ -1,4 +1,5 @@
-namespace ProjetosFacul.TerminalDungeonCrawler;
+
+namespace ProjetosFacul.TerminalDungeonCrawler.Models;
 
 public class Monster
 {

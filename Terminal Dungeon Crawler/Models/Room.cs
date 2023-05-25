@@ -1,6 +1,6 @@
 using ProjetosFacul.TerminalDungeonCrawler.Items;
 
-namespace ProjetosFacul.TerminalDungeonCrawler;
+namespace ProjetosFacul.TerminalDungeonCrawler.Models;
 
 public class Room
 {
